@@ -12,9 +12,8 @@ for ingredient in ingredients:
 print("Your sandwich is complete.")
     
 earth_weight = 120 
-moon_weight = earth_weight * 0.165
 
-years = [1,2,3,4,5,6,7,8,9,10,12,12,13,14,15]
+years = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 earth_weight = 120
 while earth_weight >= 120:
     earth_weight = earth_weight + 1
@@ -22,7 +21,7 @@ while earth_weight >= 120:
         break
     for year in years:
         moon_weight = earth_weight * 0.165
-        print("Year %s = %s" % (year, moon_weight))
+    print(moon_weight)
 
 
 
