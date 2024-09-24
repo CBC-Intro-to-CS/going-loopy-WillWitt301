@@ -11,7 +11,6 @@ for ingredient in ingredients:
 print("Your sandwich is complete.")
     
 
-
 earth_weight = 120
 for year in range(1, 16):
     earth_weight = earth_weight + 1
